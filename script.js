@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const themeToggle = document.getElementById('theme-toggle');
     const scoreElement = document.createElement('div');
     scoreElement.classList.add('score-display');
-    scoreElement.textContent = '积分: 0';
+    scoreElement.textContent = '🏆积分: 0';
     document.querySelector('.game-info').appendChild(scoreElement);
 
     // 创建历史记录显示元素
@@ -145,7 +145,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
     // 更新积分显示
     function updateScoreDisplay() {
-        scoreElement.textContent = `积分: ${gameState.score}`;
+        scoreElement.textContent = `🏆积分: ${gameState.score}`;
     }
     
     // 更新历史记录显示
